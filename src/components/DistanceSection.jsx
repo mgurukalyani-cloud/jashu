@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Heart, Sparkles, ArrowRight, Send } from 'lucide-react';
 import { BIRTHDAY_DATA } from '../data/birthdayData';
 import { sfx } from '../utils/soundEffects';
+import { asset } from '../utils/assetHelper';
 
 export default function DistanceSection({ onProceedToActivities }) {
   const { distance } = BIRTHDAY_DATA;
@@ -141,10 +142,10 @@ export default function DistanceSection({ onProceedToActivities }) {
 
             <defs>
               <pattern id="userPhoto" patternUnits="userSpaceOnUse" width="48" height="48" x="66" y="56">
-                <image href="./assets/friendship/me-and-jashu-sparkle-selfie.jpg" x="66" y="56" width="48" height="48" preserveAspectRatio="xMidYMid slice" />
+                <image href={asset('assets/friendship/me-and-jashu-sparkle-selfie.jpg')} x="66" y="56" width="48" height="48" preserveAspectRatio="xMidYMid slice" />
               </pattern>
               <pattern id="jashuPhoto" patternUnits="userSpaceOnUse" width="48" height="48" x="406" y="56">
-                <image href="./assets/jashu/jashu-diya-rangoli.jpg" x="406" y="56" width="48" height="48" preserveAspectRatio="xMidYMid slice" />
+                <image href={asset('assets/jashu/jashu-diya-rangoli.jpg')} x="406" y="56" width="48" height="48" preserveAspectRatio="xMidYMid slice" />
               </pattern>
               <linearGradient id="distLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
                 <stop offset="0%" stopColor="#ec4899" />

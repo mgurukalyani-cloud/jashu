@@ -3,6 +3,7 @@ import { Sparkles, Heart, Mail, Gift } from 'lucide-react';
 import { BIRTHDAY_DATA } from '../data/birthdayData';
 import { triggerGiftOpenConfetti } from '../utils/confetti';
 import { sfx } from '../utils/soundEffects';
+import { asset } from '../utils/assetHelper';
 
 export default function GiftReveal({ onProceedToLetter }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -137,7 +138,7 @@ export default function GiftReveal({ onProceedToLetter }) {
             {isOpen ? (
               <div style={{ animation: 'fadeIn 0.6s ease-out', position: 'relative' }}>
                 <img
-                  src="./assets/gift-box-3d.png"
+                  src={asset('assets/gift-box-3d.png')}
                   alt="3D Open Gift Box with Floating Hearts"
                   style={{
                     width: '230px',

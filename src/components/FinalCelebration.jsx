@@ -3,6 +3,7 @@ import { Heart, Sparkles, RotateCcw, Clock, PartyPopper, Send, MessageCircle, Ph
 import { BIRTHDAY_DATA } from '../data/birthdayData';
 import { triggerCelebrationConfetti, triggerFireworksShower } from '../utils/confetti';
 import { sfx } from '../utils/soundEffects';
+import { asset } from '../utils/assetHelper';
 import PandaBear from './PandaBear';
 
 export default function FinalCelebration({ onReplayJourney }) {
@@ -284,7 +285,7 @@ Sent with all my love for my best friend! 🥰💖`;
                 animation: 'gentleFloat 3.5s ease-in-out infinite'
               }}>
                 <img
-                  src="./assets/heart-fireworks.png"
+                  src={asset('assets/heart-fireworks.png')}
                   alt="Heart Fireworks Bouquet"
                   style={{
                     width: '100%',
@@ -318,7 +319,7 @@ Sent with all my love for my best friend! 🥰💖`;
                   marginBottom: '3px'
                 }}>
                   <img
-                    src="./assets/friendship/me-and-jashu-heart-sign.jpg"
+                    src={asset('assets/friendship/me-and-jashu-heart-sign.jpg')}
                     alt="Me & Jashu Heart Sign"
                     style={{
                       width: '100%',

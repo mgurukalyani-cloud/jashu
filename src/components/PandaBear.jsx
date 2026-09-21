@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Sparkles } from 'lucide-react';
+import { asset } from '../utils/assetHelper';
 
 export default function PandaBear({ isCrying = false, isSmiling = false, noCount = 0, size = 160 }) {
   return (
@@ -28,7 +29,7 @@ export default function PandaBear({ isCrying = false, isSmiling = false, noCount
         transition: 'transform 0.4s ease'
       }}>
         <img
-          src="./assets/crying-panda.png"
+          src={asset('assets/crying-panda.png')}
           alt="Cute Panda"
           style={{
             width: '100%',
