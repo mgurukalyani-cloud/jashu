@@ -9,7 +9,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Little Angel on Floral Blanket 🌸',
     age: 'Baby Jashu • 10:45 AM Miracle',
     caption: 'The sweetest smile in her ruffled pink dress on the floral bedsheet! Look at that tiny bindi and pure innocence!',
-    src: '/assets/childhood/jashu-baby-bed.jpg',
+    src: './assets/childhood/jashu-baby-bed.jpg',
     tag: 'Little Angel',
     icon: '🌸'
   },
@@ -19,7 +19,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Those Innocent Sparkling Eyes ✨',
     age: 'Baby Bangaaram',
     caption: 'Those big, expressive, beautiful eyes and that little bindi! Purest innocence and radiant cuteness!',
-    src: '/assets/childhood/jashu-big-eyes-portrait.jpg',
+    src: './assets/childhood/jashu-big-eyes-portrait.jpg',
     tag: 'Sparkling Eyes',
     icon: '✨'
   },
@@ -29,7 +29,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Little Swing Adventures 💕',
     age: 'Toddler Days',
     caption: 'Happily rocking in her pink swing, spreading giggles and sunshine throughout the house!',
-    src: '/assets/childhood/jashu-pink-swing.jpg',
+    src: './assets/childhood/jashu-pink-swing.jpg',
     tag: 'Joyful Swings',
     icon: '💕'
   },
@@ -39,7 +39,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Princess in the Cane Rocker 👑',
     age: 'Sweet Childhood',
     caption: 'Sitting pretty in the wooden cane swing with her ruffled tiered dress! Natural poser since day one!',
-    src: '/assets/childhood/jashu-cane-swing.jpg',
+    src: './assets/childhood/jashu-cane-swing.jpg',
     tag: 'Little Queen',
     icon: '👑'
   },
@@ -49,7 +49,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Traditional Princess in Pattu Pavada 🌺',
     age: 'Golden Memories',
     caption: 'Dressed up in silk pattu pavada with flower garland in her hair, thoughtfully resting her chin. So cute!',
-    src: '/assets/childhood/jashu-traditional-pattu.jpg',
+    src: './assets/childhood/jashu-traditional-pattu.jpg',
     tag: 'Traditional Princess',
     icon: '🌺'
   },
@@ -59,7 +59,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Childhood Birthday Celebration! 🎂🎈',
     age: 'Grand Birthday Party',
     caption: 'Surrounded by balloons, decorations, and loved ones! Mom feeding the sweetest birthday cake to little Jashu!',
-    src: '/assets/childhood/jashu-birthday-cake-party.jpg',
+    src: './assets/childhood/jashu-birthday-cake-party.jpg',
     tag: 'Birthday Queen',
     icon: '🎂'
   },
@@ -69,7 +69,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: "Mom's Endless Warmth & Love 🤱",
     age: 'Baby Days with Mom',
     caption: 'Resting in the comfort of mom’s lap on the wooden cot. Pure maternal love that cradled my Bangaaram!',
-    src: '/assets/childhood/jashu-mom-cot-babies.jpg',
+    src: './assets/childhood/jashu-mom-cot-babies.jpg',
     tag: "Mother's Love",
     icon: '🤱'
   },
@@ -79,7 +79,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Twinkling Traditional Charm ✨',
     age: 'Festival Vibes',
     caption: 'Standing proud with mom in radiant silk dresses! Those innocent smiles that brighten any room!',
-    src: '/assets/childhood/jashu-family-pattu.jpg',
+    src: './assets/childhood/jashu-family-pattu.jpg',
     tag: 'Family Blessings',
     icon: '✨'
   },
@@ -89,7 +89,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Riding Her Red Bicycle with Doll! 🚲🎀',
     age: 'Little Explorer',
     caption: 'Proudly riding her cycle with training wheels and her favorite doll on the handlebars! Adventurous Jashu!',
-    src: '/assets/childhood/jashu-bicycle-doll.jpg',
+    src: './assets/childhood/jashu-bicycle-doll.jpg',
     tag: 'Little Cyclist',
     icon: '🚲'
   },
@@ -99,7 +99,7 @@ const ALL_CHILDHOOD_PHOTOS = [
     title: 'Birthday Cake Cutting at Home 🍰🎉',
     age: 'Home Birthday Joy',
     caption: 'Cutting the delicious birthday cake with family around the coffee table with balloons and smiles!',
-    src: '/assets/childhood/jashu-childhood-birthday-tv.jpg',
+    src: './assets/childhood/jashu-childhood-birthday-tv.jpg',
     tag: 'Cake Cutting',
     icon: '🍰'
   }

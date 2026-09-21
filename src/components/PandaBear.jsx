@@ -28,7 +28,7 @@ export default function PandaBear({ isCrying = false, isSmiling = false, noCount
         transition: 'transform 0.4s ease'
       }}>
         <img
-          src="/assets/crying-panda.png"
+          src="./assets/crying-panda.png"
           alt="Cute Panda"
           style={{
             width: '100%',

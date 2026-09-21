@@ -137,7 +137,7 @@ export default function GiftReveal({ onProceedToLetter }) {
             {isOpen ? (
               <div style={{ animation: 'fadeIn 0.6s ease-out', position: 'relative' }}>
                 <img
-                  src="/assets/gift-box-3d.png"
+                  src="./assets/gift-box-3d.png"
                   alt="3D Open Gift Box with Floating Hearts"
                   style={{
                     width: '230px',

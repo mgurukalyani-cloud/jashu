@@ -118,7 +118,7 @@ export const BIRTHDAY_DATA = {
       caption: 'Grace Personified 💕',
       description: 'Your smile shines brighter than a thousand festive lamps. Sitting gracefully beside the flower rangoli!',
       date: 'Festive Radiance',
-      image: '/assets/jashu/jashu-diya-rangoli.jpg',
+      image: './assets/jashu/jashu-diya-rangoli.jpg',
       rotation: '-2deg',
       tags: ['DiwaliGlow', 'Elegance', 'Jashu']
     },
@@ -128,7 +128,7 @@ export const BIRTHDAY_DATA = {
       caption: 'Stunning in Silk 💫',
       description: 'Dressed in embroidered teal & pink lehenga under warm starlight. Like a princess straight out of a royal fairytale!',
       date: 'Magical Evening',
-      image: '/assets/jashu/jashu-fairy-lights.jpg',
+      image: './assets/jashu/jashu-fairy-lights.jpg',
       rotation: '2deg',
       tags: ['PrincessVibes', 'Bangaaram', 'Starlight']
     },
@@ -138,7 +138,7 @@ export const BIRTHDAY_DATA = {
       caption: 'Candid & Beautiful 💖',
       description: 'Effortlessly charming in every candid frame, gently adjusting her earring against fairy-lit greenery.',
       date: 'Sweet Moments',
-      image: '/assets/jashu/jashu-candid-earring.jpg',
+      image: './assets/jashu/jashu-candid-earring.jpg',
       rotation: '-1.5deg',
       tags: ['CandidCharm', 'Smile', 'PureHeart']
     },
@@ -148,7 +148,7 @@ export const BIRTHDAY_DATA = {
       caption: 'Peaceful Breeze 🌿',
       description: 'A quiet serene morning looking out at green trees, with dreams as vast and beautiful as the sky.',
       date: 'Serene Thoughts',
-      image: '/assets/jashu/jashu-window-smile.jpg',
+      image: './assets/jashu/jashu-window-smile.jpg',
       rotation: '1.5deg',
       tags: ['Peaceful', 'Bujji', 'Dreams']
     },
@@ -158,7 +158,7 @@ export const BIRTHDAY_DATA = {
       caption: 'Blessed Traditions 🕯️',
       description: 'Standing tall with loved ones beside the grand flower rangoli. Rooted in tradition, surrounded by pure love!',
       date: 'Family & Love',
-      image: '/assets/jashu/jashu-rangoli-family.jpg',
+      image: './assets/jashu/jashu-rangoli-family.jpg',
       rotation: '-2deg',
       tags: ['FamilyLove', 'Tradition', 'Joy']
     }
@@ -258,7 +258,7 @@ export const BIRTHDAY_DATA = {
   // Audio / Music Settings
   music: {
     title: 'Gentle Birthday Lullaby & Friendship Melody',
-    audioSrc: '/music/birthday-song.mp3'
+    audioSrc: './music/birthday-song.mp3'
   }
 };
 
@@ -278,7 +278,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Little Angel on Floral Blanket 🌸',
     subtitle: 'Baby Jashu • 10:45 AM Miracle',
     description: 'The sweetest smile in her ruffled pink dress on the floral bedsheet! Look at that tiny bindi and pure innocence!',
-    src: '/assets/childhood/jashu-baby-bed.jpg',
+    src: './assets/childhood/jashu-baby-bed.jpg',
     tag: 'Little Angel',
     rotation: '-2deg'
   },
@@ -289,7 +289,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Those Innocent Sparkling Eyes ✨',
     subtitle: 'Baby Bangaaram',
     description: 'Those big, expressive, beautiful eyes and that little bindi! Purest innocence and radiant cuteness!',
-    src: '/assets/childhood/jashu-big-eyes-portrait.jpg',
+    src: './assets/childhood/jashu-big-eyes-portrait.jpg',
     tag: 'Sparkling Eyes',
     rotation: '1.5deg'
   },
@@ -300,7 +300,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Little Swing Adventures 💕',
     subtitle: 'Toddler Days',
     description: 'Happily rocking in her pink swing, spreading giggles and sunshine throughout the house!',
-    src: '/assets/childhood/jashu-pink-swing.jpg',
+    src: './assets/childhood/jashu-pink-swing.jpg',
     tag: 'Joyful Swings',
     rotation: '-1.5deg'
   },
@@ -311,7 +311,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Princess in the Cane Rocker 👑',
     subtitle: 'Sweet Childhood',
     description: 'Sitting pretty in the wooden cane swing with her ruffled tiered dress! Natural poser since day one!',
-    src: '/assets/childhood/jashu-cane-swing.jpg',
+    src: './assets/childhood/jashu-cane-swing.jpg',
     tag: 'Little Queen',
     rotation: '2deg'
   },
@@ -322,7 +322,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Traditional Princess in Pattu Pavada 🌺',
     subtitle: 'Golden Memories',
     description: 'Dressed up in silk pattu pavada with flower garland in her hair, thoughtfully resting her chin. So cute!',
-    src: '/assets/childhood/jashu-traditional-pattu.jpg',
+    src: './assets/childhood/jashu-traditional-pattu.jpg',
     tag: 'Traditional Princess',
     rotation: '-2deg'
   },
@@ -333,7 +333,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Childhood Birthday Celebration! 🎂🎈',
     subtitle: 'Grand Birthday Party',
     description: 'Surrounded by balloons, decorations, and loved ones! Mom feeding the sweetest birthday cake to little Jashu!',
-    src: '/assets/childhood/jashu-birthday-cake-party.jpg',
+    src: './assets/childhood/jashu-birthday-cake-party.jpg',
     tag: 'Birthday Queen',
     rotation: '1deg'
   },
@@ -344,7 +344,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: "Mom's Endless Warmth & Love 🤱",
     subtitle: 'Baby Days with Mom',
     description: 'Resting in the comfort of mom’s lap on the wooden cot. Pure maternal love that cradled my Bangaaram!',
-    src: '/assets/childhood/jashu-mom-cot-babies.jpg',
+    src: './assets/childhood/jashu-mom-cot-babies.jpg',
     tag: "Mother's Love",
     rotation: '-1.5deg'
   },
@@ -355,7 +355,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Twinkling Traditional Charm ✨',
     subtitle: 'Festival Vibes',
     description: 'Standing proud with mom in radiant silk dresses! Those innocent smiles that brighten any room!',
-    src: '/assets/childhood/jashu-family-pattu.jpg',
+    src: './assets/childhood/jashu-family-pattu.jpg',
     tag: 'Family Blessings',
     rotation: '2deg'
   },
@@ -366,7 +366,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Riding Her Red Bicycle with Doll! 🚲🎀',
     subtitle: 'Little Explorer',
     description: 'Proudly riding her cycle with training wheels and her favorite doll on the handlebars! Adventurous Jashu!',
-    src: '/assets/childhood/jashu-bicycle-doll.jpg',
+    src: './assets/childhood/jashu-bicycle-doll.jpg',
     tag: 'Little Cyclist',
     rotation: '-2deg'
   },
@@ -377,7 +377,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Birthday Cake Cutting at Home 🍰🎉',
     subtitle: 'Home Birthday Joy',
     description: 'Cutting the delicious birthday cake with family around the coffee table with balloons and smiles!',
-    src: '/assets/childhood/jashu-childhood-birthday-tv.jpg',
+    src: './assets/childhood/jashu-childhood-birthday-tv.jpg',
     tag: 'Cake Cutting',
     rotation: '1.5deg'
   },
@@ -390,7 +390,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Half Heart + Half Heart = Our Love 🫶',
     subtitle: 'Best Friends Forever 💕',
     description: 'Two hands making one complete heart. Distance may separate our homes and colleges, but this heart will forever stay complete!',
-    src: '/assets/friendship/me-and-jashu-heart-sign.jpg',
+    src: './assets/friendship/me-and-jashu-heart-sign.jpg',
     tag: 'Our Heart Sign 🫶',
     rotation: '-1.5deg'
   },
@@ -401,7 +401,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Sparkles & Endless Laughter ✨👑',
     subtitle: 'Queens of Friendship 💖',
     description: 'Two best friends, endless laughs, and a lifetime of inside jokes! My favorite person to take selfies with!',
-    src: '/assets/friendship/me-and-jashu-sparkle-selfie.jpg',
+    src: './assets/friendship/me-and-jashu-sparkle-selfie.jpg',
     tag: 'Pure Joy ✨',
     rotation: '2deg'
   },
@@ -412,7 +412,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Festive Twirls & Golden Days 🌸',
     subtitle: 'Side by Side Always 💫',
     description: 'Dressed up in festive silk lehengas, sitting together and sharing every little secret. Unbreakable bond!',
-    src: '/assets/friendship/me-and-jashu-traditional.jpg',
+    src: './assets/friendship/me-and-jashu-traditional.jpg',
     tag: 'Festive Glow 🌸',
     rotation: '-2deg'
   },
@@ -423,7 +423,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: "Blessings by Bappa's Side 🌺🙏",
     subtitle: 'Prayers for You 🌟',
     description: 'Standing together in front of the grand Vinayaka pandal, wishing for your eternal happiness, health, and success!',
-    src: '/assets/friendship/me-and-jashu-ganesh-pandal.jpg',
+    src: './assets/friendship/me-and-jashu-ganesh-pandal.jpg',
     tag: 'Bappa Blessings 🌺',
     rotation: '1.5deg'
   },
@@ -436,7 +436,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Glow of the Festive Diyas 🪔',
     subtitle: 'Grace Personified 💕',
     description: 'Your smile shines brighter than a thousand festive lamps. Sitting gracefully beside the flower rangoli!',
-    src: '/assets/jashu/jashu-diya-rangoli.jpg',
+    src: './assets/jashu/jashu-diya-rangoli.jpg',
     tag: 'Diwali Glow',
     rotation: '-2deg'
   },
@@ -447,7 +447,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Under Fairy Lights & Starlight ✨',
     subtitle: 'Stunning in Silk 💫',
     description: 'Dressed in embroidered teal & pink lehenga under warm starlight. Like a princess straight out of a royal fairytale!',
-    src: '/assets/jashu/jashu-fairy-lights.jpg',
+    src: './assets/jashu/jashu-fairy-lights.jpg',
     tag: 'Fairy Lights',
     rotation: '2deg'
   },
@@ -458,7 +458,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Moments of Pure Elegance 🌸',
     subtitle: 'Candid & Beautiful 💖',
     description: 'Effortlessly charming in every candid frame, gently adjusting her earring against fairy-lit greenery.',
-    src: '/assets/jashu/jashu-candid-earring.jpg',
+    src: './assets/jashu/jashu-candid-earring.jpg',
     tag: 'Candid Charm',
     rotation: '-1.5deg'
   },
@@ -469,7 +469,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Serenity by the Window 🍃',
     subtitle: 'Peaceful Breeze 🌿',
     description: 'A quiet serene morning looking out at green trees, with dreams as vast and beautiful as the sky.',
-    src: '/assets/jashu/jashu-window-smile.jpg',
+    src: './assets/jashu/jashu-window-smile.jpg',
     tag: 'Serene Smile',
     rotation: '1.5deg'
   },
@@ -480,7 +480,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Family Celebrations & Deepam Glow 🌺',
     subtitle: 'Blessed Traditions 🕯️',
     description: 'Standing tall with loved ones beside the grand flower rangoli. Rooted in tradition, surrounded by pure love!',
-    src: '/assets/jashu/jashu-rangoli-family.jpg',
+    src: './assets/jashu/jashu-rangoli-family.jpg',
     tag: 'Family Blessings',
     rotation: '-2deg'
   },
@@ -493,7 +493,7 @@ export const MASTER_ALBUM_PHOTOS = [
     title: 'Cherished Memories Scrapbook Collage 🎨',
     subtitle: 'Handmade Memory Board 💖',
     description: 'A loving visual montage celebrating precious snapshots, birthday wishes, and our unforgettable friendship journey!',
-    src: '/assets/scrapbook-collage.png',
+    src: './assets/scrapbook-collage.png',
     tag: 'Artwork Collage',
     rotation: '1deg'
   }

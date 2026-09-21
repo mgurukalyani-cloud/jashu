@@ -8,7 +8,7 @@ const FRIENDSHIP_PHOTOS = [
     title: 'Half Heart + Half Heart = Our Love 🫶',
     caption: 'Best Friends Forever 💕',
     description: 'Two hands making one complete heart. Distance may separate our homes and colleges, but this heart will forever stay complete!',
-    src: '/assets/friendship/me-and-jashu-heart-sign.jpg',
+    src: './assets/friendship/me-and-jashu-heart-sign.jpg',
     tag: 'Our Heart Sign 🫶'
   },
   {
@@ -16,7 +16,7 @@ const FRIENDSHIP_PHOTOS = [
     title: 'Sparkles & Endless Laughter ✨👑',
     caption: 'Queens of Friendship 💖',
     description: 'Two best friends, endless laughs, and a lifetime of inside jokes! My favorite person to take selfies with!',
-    src: '/assets/friendship/me-and-jashu-sparkle-selfie.jpg',
+    src: './assets/friendship/me-and-jashu-sparkle-selfie.jpg',
     tag: 'Pure Joy ✨'
   },
   {
@@ -24,7 +24,7 @@ const FRIENDSHIP_PHOTOS = [
     title: 'Festive Twirls & Golden Days 🌸',
     caption: 'Side by Side Always 💫',
     description: 'Dressed up in festive silk lehengas, sitting together and sharing every little secret. Unbreakable bond!',
-    src: '/assets/friendship/me-and-jashu-traditional.jpg',
+    src: './assets/friendship/me-and-jashu-traditional.jpg',
     tag: 'Festive Glow 🌸'
   },
   {
@@ -32,7 +32,7 @@ const FRIENDSHIP_PHOTOS = [
     title: "Blessings by Bappa's Side 🌺🙏",
     caption: 'Prayers for You 🌟',
     description: 'Standing together in front of the grand Vinayaka pandal, wishing for your eternal happiness, health, and success!',
-    src: '/assets/friendship/me-and-jashu-ganesh-pandal.jpg',
+    src: './assets/friendship/me-and-jashu-ganesh-pandal.jpg',
     tag: 'Bappa Blessings 🌺'
   }
 ];
@@ -478,7 +478,7 @@ export default function ScrapbookCollage({ onProceedToTimeline }) {
               title="Click to view full screen!"
             >
               <img
-                src="/assets/scrapbook-collage.png"
+                src="./assets/scrapbook-collage.png"
                 alt="Best Friend Memories Scrapbook Collage"
                 style={{
                   width: '100%',
@@ -597,7 +597,7 @@ export default function ScrapbookCollage({ onProceedToTimeline }) {
             </button>
 
             <img
-              src={activeTab === 'real' ? currentFriendPhoto.src : '/assets/scrapbook-collage.png'}
+              src={activeTab === 'real' ? currentFriendPhoto.src : './assets/scrapbook-collage.png'}
               alt="Enlarged Memory"
               style={{
                 maxWidth: '85vw',

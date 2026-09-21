@@ -284,7 +284,7 @@ Sent with all my love for my best friend! 🥰💖`;
                 animation: 'gentleFloat 3.5s ease-in-out infinite'
               }}>
                 <img
-                  src="/assets/heart-fireworks.png"
+                  src="./assets/heart-fireworks.png"
                   alt="Heart Fireworks Bouquet"
                   style={{
                     width: '100%',
@@ -318,7 +318,7 @@ Sent with all my love for my best friend! 🥰💖`;
                   marginBottom: '3px'
                 }}>
                   <img
-                    src="/assets/friendship/me-and-jashu-heart-sign.jpg"
+                    src="./assets/friendship/me-and-jashu-heart-sign.jpg"
                     alt="Me & Jashu Heart Sign"
                     style={{
                       width: '100%',
