@@ -13,20 +13,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module">
-      const isLocal = window.location.hostname === 'localhost' ||
-                      window.location.hostname === '127.0.0.1' ||
-                      window.location.hostname.startsWith('10.') ||
-                      window.location.hostname.startsWith('192.168.');
-      if (isLocal) {
-        import('/src/main.jsx');
-      } else {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = '/jashu/assets/index-nI2VN2YX.css';
-        document.head.appendChild(link);
-        import('/jashu/assets/index-KZ0fhvzW.js');
-      }
-    </script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
